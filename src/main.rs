@@ -16,7 +16,7 @@ struct Cli {
 }
 
 fn make_file(){
-    let mut app = match std::fs::File::create("~/.config/rtrc") {
+    let mut app = match std::fs::File::create(".rtrc") {
         Ok(file) => file,
         Err(_) => panic!("Failed to make file"),
     };
@@ -24,12 +24,12 @@ fn make_file(){
     .expect("Write failed.");
     app.write_all(b"[Creator Message]\n")
     .expect("Write failed.");
-    println!("Please configure the \"~/.config/.rtrc\"");
+    println!("Please configure the \".rtrc\"");
 }
 
 fn make_file_with_text(args: Cli) {
     if Path::new("~/.config/rtrc").exists() {
-        let mut text_file = std::fs::File::open("~/.config/rtrc").unwrap();
+        let mut text_file = std::fs::File::open(".rtrc").unwrap();
         let mut file = std::fs::File::create(args.path)
         .expect("Error making file");
         let mut contents = String::new();
