@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["riptouch"] = [{"text":"impl <a class=\"trait\" href=\"clap/derive/trait.Parser.html\" title=\"trait clap::derive::Parser\">Parser</a> for <a class=\"struct\" href=\"riptouch/struct.Cli.html\" title=\"struct riptouch::Cli\">Cli</a>","synthetic":false,"types":["riptouch::Cli"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

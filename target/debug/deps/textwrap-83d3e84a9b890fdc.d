@@ -1,0 +1,10 @@
+/Users/bangarisaianvesh/projects/rust/riptouch/target/debug/deps/textwrap-83d3e84a9b890fdc.rmeta: /Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/lib.rs /Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/indentation.rs /Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/word_separators.rs /Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/word_splitters.rs /Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/wrap_algorithms.rs /Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/core.rs
+
+/Users/bangarisaianvesh/projects/rust/riptouch/target/debug/deps/textwrap-83d3e84a9b890fdc.d: /Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/lib.rs /Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/indentation.rs /Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/word_separators.rs /Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/word_splitters.rs /Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/wrap_algorithms.rs /Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/core.rs
+
+/Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/lib.rs:
+/Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/indentation.rs:
+/Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/word_separators.rs:
+/Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/word_splitters.rs:
+/Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/wrap_algorithms.rs:
+/Users/bangarisaianvesh/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.15.0/src/core.rs:
