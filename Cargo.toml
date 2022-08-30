@@ -8,6 +8,10 @@ homepage = "https://github.com/BangariSaiAnvesh/riptouch"
 repository = "https://github.com/BangariSaiAnvesh/riptouch"
 keywords = ["touch", "cli", "custom text"]
 categories = ["command-line-utilities"]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
