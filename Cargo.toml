@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/BangariSaiAnvesh/riptouch"
 repository = "https://github.com/BangariSaiAnvesh/riptouch"
-keywords = ["touch", "cli", "custom text"]
+keywords = ["touch", "cli", "custom_text"]
 categories = ["command-line-utilities"]
 include = [
     "main.rs",
