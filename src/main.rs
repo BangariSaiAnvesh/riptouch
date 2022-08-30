@@ -20,27 +20,34 @@ fn make_file(){
         Ok(file) => file,
         Err(_) => panic!("Failed to make file"),
     };
-    app.write_all(b"What ever is below CREATOR MESSAGE will be added to the created file.\n\n").expect("Write failed.");
-    app.write_all(b"[Creator Message]\n").expect("Write failed.");
+    app.write_all(b"What ever is below CREATOR MESSAGE will be added to the created file.\n\n")
+    .expect("Write failed.");
+    app.write_all(b"[Creator Message]\n")
+    .expect("Write failed.");
     println!("Please configure the \"~/.config/.rtrc\"");
 }
 
 fn make_file_with_text(args: Cli) {
     if Path::new("~/.config/rtrc").exists() {
         let mut text_file = std::fs::File::open("~/.config/rtrc").unwrap();
-        let mut file = std::fs::File::create(args.path).expect("Error making file");
+        let mut file = std::fs::File::create(args.path)
+        .expect("Error making file");
         let mut contents = String::new();
-        text_file.read_to_string(&mut contents).expect("Failed to read config file.");
+        text_file.read_to_string(&mut contents)
+        .expect("Failed to read config file.");
         let mut state = false;
         for line in contents.lines() {
             if line == "[Language Comment]" { break; }
             if line.ends_with("Date: ") {
-                file.write_all(format!("{}", line).as_bytes()).expect("Failed to write");
-                file.write_all(format!("{}\n", Local::now().date()).as_bytes()).expect("Failed to write");
+                file.write_all(format!("{}", line).as_bytes())
+                .expect("Failed to write");
+                file.write_all(format!("{}\n", Local::now().date()).as_bytes())
+                .expect("Failed to write");
                 continue;
             }
             if state {
-                file.write_all(format!("{}\n", line).as_bytes()).expect("Failed to write");
+                file.write_all(format!("{}\n", line).as_bytes())
+                .expect("Failed to write");
                 continue;
             }
             if line == "[Creator Message]" {

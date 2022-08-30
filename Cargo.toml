@@ -2,7 +2,8 @@
 name = "riptouch"
 version = "0.1.0"
 edition = "2021"
-
+description = "A simple touch rip off that can add custom text in the bigining."
+license = "MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
